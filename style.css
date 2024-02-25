@@ -1,0 +1,56 @@
+p{
+	color:black;
+	font-family:Calibri;	
+}
+body{
+	background:bisque;
+	font-family:Calibri;
+	text-align: justify;
+}
+h1 {
+	color:IndianRed;
+	font-family:Calibri;
+	font-size:300%;
+	text-align: center;
+	border:3px solid maroon;
+}
+h2 {
+	color:IndianRed;
+	font-family:Calibri;
+	font-size:200%;
+}
+h1 {
+  text-shadow: 2px 2px grey;
+}
+h2 {
+  text-shadow: 2px 2px grey;
+}
+.underline {
+  text-decoration: underline;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+    /* Define the column layout */
+    .column {
+        float: left;
+        width: 33.33%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    /* Add some styling for demonstration */
+    .column {
+        background-color: bisque;
+        border: 1px solid black;
+    }
+	
