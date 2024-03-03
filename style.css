@@ -3,7 +3,7 @@ p{
 	font-family:Calibri;	
 }
 body{
-	background:bisque;
+	background:#f5ebeb;
 	font-family:Calibri;
 	text-align: justify;
 }
@@ -33,24 +33,64 @@ h2 {
   font-weight: bold;
 }
 
-    /* Define the column layout */
-    .column {
-        float: left;
-        width: 33.33%;
-        padding: 10px;
-        box-sizing: border-box;
-    }
+.container{
+	display:flex; 
+	justify-content:space-between;
+	margin:15px;
+}
 
-    /* Clear floats after the columns */
-    .row:after {
-        content: "";
-        display: table;
-        clear: both;
-    }
+.one,.two,.three,.four,.five,.six {
+	background: #ffcbcb;
+    width: 32%;
+	padding: 12px;
+    box-sizing: border-box;
+	border: 1px solid black;
+}
 
-    /* Add some styling for demonstration */
-    .column {
-        background-color: bisque;
-        border: 1px solid black;
-    }
-	
+.column {
+	background: #ffb5b5;
+    width: 32%;
+	padding: 12px;
+    box-sizing: border-box;
+	border: 1px solid black;
+}
+
+.left,.right {
+	background: #f4aeba;
+    width: 48%;
+	padding: 15px;
+    box-sizing: border-box;
+	border: 1px solid black;
+}
+
+@media (max-width: 780px){
+	body{
+		background-color:white;
+		text-align:center;
+		color:black;
+		margin:10px;
+	}
+	.container{
+		flex-wrap:wrap;
+	}
+	.column{
+		width:100%;
+		margin:8px;
+	}
+	.left,.right{
+		width:100%;
+		margin:8px;
+	}
+}
+
+
+
+.show {
+	background-color:#ffcbcb;
+}
+
+.row {
+	margin-top:100px;
+	min-height:100px;
+	justify-content:space-between;
+}
