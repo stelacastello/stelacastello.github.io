@@ -1,0 +1,46 @@
+body{
+	background:#f5ebeb;
+	font-family:Calibri;
+	text-align: center;
+	color:white;
+}
+
+p{
+	color:black;
+	font-family:Calibri;	
+}
+
+h1 {
+	color:IndianRed;
+	font-family:Calibri;
+	font-size:300%;
+	text-align: center;
+	text-shadow: 2px 2px grey;
+}
+h2 {
+	color:IndianRed;
+	font-family:Calibri;
+	font-size:200%;
+	text-shadow: 2px 2px grey;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.show{
+	background-color:white;
+	color:black;
+	border: 2px solid #ffcbcb; 
+}
+
+.row{
+	margin-top:100px;
+	min-height:100px;
+	justify-content:space-between;
+}
+
