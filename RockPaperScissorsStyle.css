@@ -1,0 +1,24 @@
+body {
+    font-family: Calibri;
+    text-align: center;
+	background:#f5ebeb;
+}
+
+h1 {
+	color:IndianRed;
+	font-size:250%;
+	border:2px solid maroon;
+}
+
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 150%;
+	color:IndianRed;
+}
