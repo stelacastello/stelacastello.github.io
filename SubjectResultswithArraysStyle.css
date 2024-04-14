@@ -1,0 +1,53 @@
+body {
+    background:#f5ebeb;
+	font-family:Calibri;
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1 {
+	color:IndianRed;
+	font-family:Calibri;
+	font-size:300%;
+	text-align: center;
+	text-shadow: 1px 1px grey;
+}
+
+h2 {
+	color:Black;
+	font-family:Calibri;
+	text-align: center;
+}
+
+h3 {
+	color:Black;
+	font-family:Calibri;
+	text-align: center;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid maroon;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+
+#marksInput {
+    display: none;
+}
+
+.results {
+    margin-top: 20px;
+}
+
+input[type="number"]::-webkit-inner-spin-button, 
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
