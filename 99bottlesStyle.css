@@ -1,0 +1,27 @@
+body {
+    background:#f5ebeb;
+	font-family:Calibri;
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1 {
+	color:IndianRed;
+	font-family:Calibri;
+	font-size:300%;
+	text-align: center;
+	text-shadow: 1px 1px grey;
+	border:2px solid maroon;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid maroon;
+    text-align: center;
+}
+
+#lyrics {
+    font-size: 15px;
+}

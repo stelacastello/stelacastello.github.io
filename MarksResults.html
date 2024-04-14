@@ -1,0 +1,23 @@
+<html>
+<head>
+    <title>Subject Marks</title>
+    <link rel="stylesheet" href="MarksResultsStyle.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Hello student!</h1>
+		<h2>Let's calculate your marks and results for this year.</h2>
+        <label for="subjectCount">Number of Subjects:</label>
+        <input type="number" id="subjectCount" required>		
+		<button onclick="getMarks()">Submit</button> 
+
+
+        <div id="marksInput"></div>
+        <button onclick="calculateResult()">Calculate</button>
+        <div id="result"></div>
+    </div>
+
+    <script src="MarksResultsJavaScript.js"></script>
+</body>
+</html>
